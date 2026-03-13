@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal_shope.id - Link Bio</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #121212; color: white; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; margin: 0; }
+        .profile-pic { width: 110px; height: 110px; border-radius: 50%; margin-bottom: 15px; border: 3px solid #e1306c; object-fit: cover; }
+        h1 { font-size: 1.4rem; margin-bottom: 5px; text-transform: uppercase; }
+        p { color: #aaa; margin-bottom: 30px; font-size: 0.9rem; }
+        
+        /* Gaya Tombol Link */
+        .link-card { background: #1e1e1e; width: 100%; max-width: 400px; display: flex; align-items: center; margin-bottom: 15px; text-decoration: none; color: white; border-radius: 12px; overflow: hidden; border: 1px solid #333; transition: 0.3s; }
+        .link-card:hover { background: #0000ff; border-color: #ffd700; transform: translateY(-3px); box-shadow: 0 0 15px rgba (0, 0, 255, 0.6); }
+        .link-card img { width: 50px; height: 50px; object-fit: contain; padding: 12px; }
+        .link-card span { padding: 0 15px; font-weight: 600; font-size: 0.9rem; }
+
+        /* Gaya Kotak Katalog */
+        .katalog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px; max-width: 400px; margin: 0 auto; }
+        .produk-item { text-align: center; }
+        .katalog-img { width: 100%; border-radius: 10px; border: 1px solid #444; height: 150px; object-fit: cover; transition: 0,3s; }
+        .katalog.img:hover { transform: scale(1,05); cursor: pointer; }
+        .produk-item a {disply: block; /*supaya link-nya jadi kotak utuh */ width : 100%; /* supaya lebarnya pas sama kotak 2-2 itu */ tex-decoration: none; /* menghilangkan garis bawah pada link*/}
+        .section-title { font-size: 1rem; color: #ee130c; font-weight: bold; margin-bottom: 10px; text-align: center; }
+        .harga-produk { color: white; font-size: 0.8rem; font-weight: bold; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <img src="profile.jpg" alt="Profile" class="profile-pic">
+    
+    <h1>Kamal shope ID</h1>
+    <p>Deskripsi singkat toko di sini</p>
+
+    <a href="https://instagram.com/hud_lana87" class="link-card" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="IG">
+        <span>FOLLOW INSTAGRAM KAMI</span>
+    </a>
+
+    <a href="https://wa.me/6283123019770" class="link-card" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WA">
+        <span>ORDER VIA WHATSAPP</span>
+    </a>
+
+    <hr style="width: 100%; max-width: 400px; border: 0.5px solid #333; margin: 20px 0;">
+
+    <div class="section-title">PRODUK UNGGULAN</div>
+
+    <div class="katalog-grid">
+
+  <div  href="https://wa.me/6283123019770?text=Halo%20Kamal%20Shope,%20saya%20mau%20order%20Sepatu%20Katalog%201" target="_blank">
+                <img src="katalog1" class="katalog-img">
+            </a>
+            <p class="harga-produk">Rp 130.000</p>
+        </div>
+
+        <div class="produk-item">
+            <a href="https://wa.me/6283123019770?text=Halo%20Kamal%20Shope,%20saya%20mau%20order%20Sepatu%20Katalog%202" target="_blank">
+                <img src="katalog2" class="katalog-img">
+            </a>
+            <p class="harga-produk">Rp 130.000</p>
+        </div>
+
+        <div class="produk-item">
+            <a href="https://wa.me/6283123019770?text=Halo%20Kamal%20Shope,%20saya%20mau%20order%20Sepatu%20Katalog%203" target="_blank">
+                <img src="katalog3" class="katalog-img">
+            </a>
+            <p class="harga-produk">Rp 130.000</p>
+        </div>
+
+        <div class="produk-item">
+            <a href="https://wa.me/6283123019770?text=Halo%20Kamal%20Shope,%20saya%20mau%20order%20Sepatu%20Katalog%204" target="_blank">
+                <img src="katalog4" class="katalog-img">
+            </a>
+            <p class="harga-produk">Rp 130.000</p>
+        </div>
+    </div>
+    <p class="harga-produk">Rp 130.000</p>
+</div>
+
+    <script>
+      alert("Selamat Datang di Web Katalog Kamal Shope! 🔥");
+    </script>
+
+</body>
+</html>
